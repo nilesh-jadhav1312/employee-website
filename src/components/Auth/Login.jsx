@@ -9,7 +9,7 @@ const Login=({handleLogin})=> {
   const handleSubmit = (event) => {
     event.preventDefault();
     handleLogin(email,password)
-    console.log("Login attempted with:", { email, password });
+   // console.log("Login attempted with:", { email, password });
   };
 
   return (
